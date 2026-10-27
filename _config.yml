@@ -3,7 +3,7 @@
 
 title: AI開発メモ
 description: >-
-  Claude Code などの AI ツールを使った開発の始め方・使い方を、初心者目線でまとめるブログです。
+  Claude Code などの AI ツールの使い方や、AI と一緒に進めるゲーム制作・画像生成の環境づくりを、初心者目線でまとめるブログです。
 author: カステラ
 lang: ja
 
@@ -16,7 +16,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-permalink: /:year/:month/:day/:title/
+# 記事の URL は /posts/ファイル名/ （公開後に変えると URL が変わって検索順位がリセットされるので変えない）
+permalink: /posts/:title/
 timezone: Asia/Tokyo
 
 # 上部メニューに出すページの順番
