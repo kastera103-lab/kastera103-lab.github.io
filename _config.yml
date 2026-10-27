@@ -25,6 +25,10 @@ header_pages:
   - about.md
   - privacy.md
 
+# Google Search Console の所有権確認（jekyll-seo-tag が meta タグを出す）
+webmaster_verifications:
+  google: x2Vdh-QP-uCHGe9ljmHHePg5wrgLHfpDNQFw9FzMi6U
+
 # 広告コード（AdSense 合格後に ca-pub-XXXXXXXX を入れる。空なら何も出ない）
 adsense_client: ""
 
