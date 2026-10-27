@@ -1,0 +1,33 @@
+# サイト全体の設定（GitHub Pages / Jekyll）
+# 変更したら git push するだけで反映される（反映まで1〜2分）
+
+title: AI開発メモ
+description: >-
+  Claude Code などの AI ツールを使った開発の始め方・使い方を、初心者目線でまとめるブログです。
+author: カステラ
+lang: ja
+
+# 独自ドメインを使うときはここに書く（例: https://example.com）。github.io のままなら空でよい
+# url: ""
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+permalink: /:year/:month/:day/:title/
+timezone: Asia/Tokyo
+
+# 上部メニューに出すページの順番
+header_pages:
+  - about.md
+  - privacy.md
+
+# 広告コード（AdSense 合格後に ca-pub-XXXXXXXX を入れる。空なら何も出ない）
+adsense_client: ""
+
+exclude:
+  - README.md
+  - CLAUDE.md
+  - PROGRESS.md
