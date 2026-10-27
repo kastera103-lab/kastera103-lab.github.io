@@ -2,3 +2,5 @@ _site/
 .jekyll-cache/
 .sass-cache/
 Gemfile.lock
+CLAUDE.md
+PROGRESS.md
