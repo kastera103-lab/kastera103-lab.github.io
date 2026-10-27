@@ -198,4 +198,4 @@ PowerShell ではなく **コマンドプロンプト** で実行しています
 - 作業フォルダで `claude` と入力して起動し、日本語で頼むだけ
 - 頼むときは「ゴールを具体的に」「小さく分けて」「確かめて、と添える」
 
-次回は、Claude Code を使って実際に何かを作った手順を紹介する予定です。
+Claude Code を使って実際にブログを作った手順は、[Claude Codeでブログを作る方法]({{ "/posts/claude-code-github-pages-blog/" | relative_url }}) で紹介しています。
