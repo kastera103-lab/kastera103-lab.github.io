@@ -29,6 +29,9 @@ header_pages:
 webmaster_verifications:
   google: x2Vdh-QP-uCHGe9ljmHHePg5wrgLHfpDNQFw9FzMi6U
 
+# Google アナリティクス（GA4）の測定 ID（G-XXXXXXXXXX）。空なら何も出ない
+google_analytics: "G-E0CY8YS05Z"
+
 # 広告コード（AdSense 合格後に ca-pub-XXXXXXXX を入れる。空なら何も出ない）
 adsense_client: ""
 
